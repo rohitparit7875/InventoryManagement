@@ -34,7 +34,8 @@ namespace InventoryManagement
 
             if (textBox1.Text == correctUsername && textBox2.Text == correctPassword)
             {
-                MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             Main mn =new Main();
+                mn.Show();
             }
             else
             {
