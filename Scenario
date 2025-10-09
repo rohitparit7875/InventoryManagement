@@ -1,0 +1,13 @@
+Scenario-Based Questions
+
+9. How would you handle a stock mismatch issue between system and physical count?
+→ Perform a cycle count, reconcile data, identify causes (data entry errors, theft, or damage), and adjust inventory records.
+
+
+10. What happens when the same item exists in multiple warehouses?
+→ Maintain location-wise stock using a Warehouse table and link it with product IDs.
+
+
+11. If two users update stock at the same time, how do you prevent conflicts?
+→ Use transactions and locking mechanisms in the database.
+
