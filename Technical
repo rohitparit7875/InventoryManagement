@@ -1,0 +1,40 @@
+Technical/Functional Questions
+
+4. How does the system calculate stock availability?
+→ Available stock = Opening stock + Purchases - Sales - Returns.
+
+
+5. What database tables would you design for an Inventory Management System?
+Example tables:
+
+Products
+
+Suppliers
+
+Customers
+
+PurchaseOrders
+
+SalesOrders
+
+StockTransactions
+
+
+
+6. What is SKU and why is it used?
+→ SKU (Stock Keeping Unit) is a unique identifier for each product used to track inventory efficiently.
+
+
+7. What is the difference between batch tracking and serial tracking?
+
+Batch tracking: Tracks groups of items with same batch ID (e.g., medicines).
+
+Serial tracking: Tracks individual items with unique serial numbers (e.g., electronics).
+
+
+
+8. What is FIFO and LIFO in inventory?
+
+FIFO (First In First Out): First purchased items are sold first.
+
+LIFO (Last In First Out): Last purchased items are sold first.
